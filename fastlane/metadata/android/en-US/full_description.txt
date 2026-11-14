@@ -1,0 +1,8 @@
+Universal Files is a Material Design file manager for Android.
+
+- Browse and organize files on device storage and SD cards
+- Connect to SMB, SFTP, FTP and WebDAV servers
+- Root access support
+- Dark and light themes with custom accent colors
+
+Contact on Telegram: @johnconstantine570
