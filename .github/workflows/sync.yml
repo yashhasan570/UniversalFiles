@@ -16,7 +16,7 @@ jobs:
       - name: Pull upstream and reapply branding
         run: |
           git clone --depth 1 https://github.com/zhanghai/MaterialFiles /tmp/upstream
-          rsync -a --delete --exclude .git --exclude .github/workflows/sync.yml --exclude scripts /tmp/upstream/ ./
+          rsync -a --delete --exclude .git --exclude .github --exclude scripts /tmp/upstream/ ./
           python3 scripts/migrate.py .
       - name: Commit and push
         run: |
